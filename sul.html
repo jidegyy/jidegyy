@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+
+    *{font-family: "pretendard";}
+      .clear {
+        clear: both;
+      }
+
+      header {
+        width: 1140px;
+        height: 250px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        /*border: solid 1px red;*/
+      }
+
+      #top_menu {
+        text-align: right;
+        margin-top: 15px;
+        margin-right: 40px;
+        font-size: 13px;
+      }
+
+      #aside {
+          margin-top: 35px;
+              float: left;
+              width: 180px;
+            }
+
+      #main_img {
+        width: 100%;
+        height: 350px;
+        /*border: solid 1px red;*/
+      }
+
+      #contents {
+        width: 1400px;
+        height: 700px;
+        margin: 0 auto;
+        /*border: solid 1px red;*/
+      }
+
+      #sub_menu {
+        width: 234px;
+        float: left;
+        /*border: solid 1px red;*/
+      }
+
+      #sub_menu li{
+        width: 234px;
+        float: left;
+        /*border: solid 1px red;*/
+        list-style: none;
+        padding: 13px;
+        border-bottom: dotted 1px gray;
+      }
+
+      #main_contents {
+        width: 1000px;
+        float: right;
+        border: dashed 1px red;
+        text-align: center;
+        border-radius: 60px;
+      }
+
+      #main_contents li {
+        width: 1000px;
+        float: right;
+        /*border: solid 1px red;*/
+        text-align: center;
+        list-style: none;
+      }
+
+      #menu {
+        padding: 0px;
+        font-weight: bold;
+      }
+
+      footer {
+        width: 100%;
+        height: 80px;
+        padding-top: 10px;
+        border: solid 3px #FFFF90;
+        border-radius: 100px;
+        text-align: center;
+        background-color: #FFFF90;
+      }
+
+      a {
+        text-decoration: none;
+        color: #FF3636;
+      }
+
+      a:hover {
+        color: #FFBB00;
+      }
+
+
+      </style>
+
+  </head>
+  <body>
+
+    <div id="aside">
+    </div>
+
+    <div id="top_menu">
+      로그인 ㅣ 회원가입 ㅣ <a href="gong.html">공지사항</a>
+    </div>
+
+    <header>
+      <a href="index.html"><img src="head.png"></a>
+    </header>
+
+    <section id="main_img">
+    <img src="food2.jpg" width="100%">
+    </section>
+
+    <section id="contents">
+
+      <nav id="sub_menu">
+        <ul id="menu">
+          <li><a href="sul.html">술집</a></li>
+          <li><a href="han.html">밥집</a></li>
+          <li><a href="jong.html">중식</a></li>
+          <li><a href="el.html">일식</a></li>
+          <li><a href="ang.html">기타</a></li>
+        </ul>
+      </nav>
+
+      <div id="main_contents">
+       <h1> 항아리 </h1>
+       <img src="sul.jpg" width="500">
+
+       <p>위치 : 경기도 의왕시 계원대학로 47 103호 1층<br>
+         메뉴 : 철판요리, 볶음요리, 탕요리, 과일 및 튀김 등
+
+       <ul>
+         <li>★사장님 PICK : 철판 김치 삼겹, 오돌뼈 주먹밥, 똥집튀김</li>
+         <li>★학교와 가까운 거리</li>
+         <li>★텐션 좋은 사장님<br><br></li>
+       </ul>
+
+      </div>
+    </section>
+
+    <div class="clear"></div> <!-- float 속성 해제 -->
+
+    <footer>
+      계원예대 맛집탐방<br><br>
+      16038 경기도 의왕시 계원대학로 66(내손동) 계원예술대학교 대표전화 1899-5823 팩스 031-424-7509 E-mail kaywon@kaywon.ac.kr<br>
+      66 Kaywondaehangno(Naeson-dong), Uiwang-si, Gyeonggi-do, Korea
+    </footer>
+
+  </body>
+</html>
